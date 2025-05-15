@@ -10,19 +10,6 @@ This is a personal portfolio website for Sospeter Owino, showcasing skills, educ
 - **Contact:** Contact details and social media links.
 
 ## Project Structure
-Collecting workspace information```markdown
-# Sospeter Owino Portfolio
-
-This is a personal portfolio website for Sospeter Owino, showcasing skills, education, and projects in web development, physics, and material science.
-
-## Features
-
-- **Home:** Introduction and quick overview.
-- **About:** Education, skills, and downloadable CV/academic papers.
-- **Projects:** Highlights of key projects with links and certificate download.
-- **Contact:** Contact details and social media links.
-
-## Project Structure
 
 ```
 about.html
