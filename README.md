@@ -1,62 +1,62 @@
 # Sospeter Owino Portfolio
 
-This is a personal portfolio website for Sospeter Owino, showcasing skills, education, and projects in web development, physics, and material science.
+Welcome to my personal portfolio built using React and Tailwind CSS. This site highlights my skills, showcases selected projects, and provides an easy way to get in touch with me.
+
 
 ## Features
 
-- **Home:** Introduction and quick overview.
-- **About:** Education, skills, and downloadable CV/academic papers.
-- **Projects:** Highlights of key projects with links and certificate download.
-- **Contact:** Contact details and social media links.
+- Responsive and modern design
+- About page with profile info and downloadable CV
+- Projects page displaying live projects with descriptions and links
+- Certification component for viewing and downloading certificates
+- Reusable UI components (Navbar, Footer, Buttons, etc.)
+
 
 ## Project Structure
 
 ```
-about.html
-contact.html
-home.html
-projects.html
-downloads/
-    academic.pdf
-    certificate.pdf
-    Sospeter Owino .pdf
-images/
-    image1.jpg
-    image2.jpg
-    image3.jpg
-    image4.jpg
-    image5.jpg
-    sos.jpg
-scripts/
-    about.js
-    home.js
-    projects.js
-styles/
-    about.css
-    contact.css
-    home.css
-    projects.css
+This is a *React app* organized with *pages* and *components* to keep code clean and reusable.
+
+
+src/
+├── assets/              # Images, certificates, icons
+├── components/          # Reusable UI components (Navbar, Footer, Buttons, etc.)
+├── pages/               # Each page (Home, About, Projects, Contact, etc.)
+├── App.jsx              # Routes and layout
+├── main.jsx             # Entry point
+├── index.css            # Tailwind base styles
+
 ```
 
 ## How to Use
+1. Clone the repo
 
-1. **Clone or Download** this repository.
-2. Open `home.html` in your browser to view the portfolio.
-3. Use the navigation links to explore different sections.
+bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 
-## Scripts
 
-- `scripts/about.js`: Handles CV and academic paper downloads.
-- `scripts/home.js`: Displays project list and contact alert.
-- `scripts/projects.js`: Handles certificate download.
+2. Install dependencies
 
-## Styling
+bash
+npm install
 
-Each page has its own CSS file in the `styles/` directory for a consistent and responsive design.
+
+3. Run the app
+
+bash
+npm run dev
+
+
+The site will be available at `http://localhost:5173`
+
+## Contact
+Email: owinosospeter60@gmail.com
 
 ## Live webpage
-https://6825c1e62513bdf23c33beea--shimmering-pixie-8eaf0a.netlify.app/
+Access the live version here:
 
 ## License
 
 &copy; 2025 Sospeter Owino. All rights reserved.
+======
