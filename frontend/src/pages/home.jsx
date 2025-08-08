@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -20,11 +21,11 @@ const Home = () => {
 
             <div className="text-center mb-6">
                <Button className="bg-blue-600 text-white hover:bg-blue-700">
-                   <a href="/projects">View Projects</a>
+                   <Link to="/projects">View Projects</Link>
                </Button>
 
                <Button className="bg-blue-600 text-white hover:bg-blue-700 ml-4">
-                   <a href="/contact">Contact Me!</a>
+                   <Link to="/contact">Contact Me!</Link>
                </Button>
             </div>
 
