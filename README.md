@@ -32,9 +32,9 @@ src/
 1. Clone the repo
 
 bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Itchy-Fingers/portfolio.git
 cd portfolio
-
+cd frontend
 
 2. Install dependencies
 
